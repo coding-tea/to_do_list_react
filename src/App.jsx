@@ -14,6 +14,9 @@ function App() {
 
   return (
     <div className="app">
+      <header>
+        To do list <a href="https://github.com/coding-tea">@codingTea <i class="bi bi-github"></i></a>
+      </header>
       <Add tasks={tasks} setTasks={setTasks} />
       <Task tasks={tasks} setTasks={setTasks} />
     </div>

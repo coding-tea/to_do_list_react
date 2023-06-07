@@ -1,0 +1,24 @@
+
+.add{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.add input{
+    padding: 10px 20px;
+    width: 92%;
+    background-color: rgba(189, 210, 105, .3);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.add_icon {
+    color: rgb(189, 210, 105);
+    cursor: pointer;
+    font-size: 20px;
+}
